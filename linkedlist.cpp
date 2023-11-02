@@ -16,5 +16,11 @@ int main() {
     l.Push(37);
 
     l.PrintList();
+
+    l.InsertNode(965, 6);
+
+    l.PrintList();
+
+    //cout << l.FindDataFromIdx(1) << endl;
     
 }
